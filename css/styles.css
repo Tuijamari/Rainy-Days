@@ -5,21 +5,12 @@
  
 }
 
-        .start{
-            display: flex;
-            align-items: center;
-            background-image: url("/images//logo\ rainy\ days\ best\ new\ colour.png"), no-repeat;
-            background-color: white;
-            margin: 20px;
-            background-size: cover;
-            background-repeat: no-repeat;
-            position: relative;
-        }
-    
+        
+
         h1,h2,h3 { 
         
             font-family:"IBMPlexsans",Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 10px;
+            color: rgb(42, 112, 42);
             text-align: center;
         }
     
@@ -27,15 +18,27 @@
         h2,h3 { 
             
             font-size: 2em;
-            text-align: left;
+            text-align: center;
     
         }
+        .active {
+            background-color: #5897A6 ;
+            color:#fff;
+         }
+         .ekstra-info {
+            display: flex;
+            flex-direction:column
 
+         }
+         .ekstra-info_item {
+            flex:1;
+         }
         p {
         font-family: "IBMPlexsans",Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1.5em;
         text-align: left;
-        margin: 10px;
+        position: center;
+        margin: 50px;
         padding: 5x;
         width: 300px;
         }
@@ -44,11 +47,13 @@
             display: none; 
             position: absolute;
         }
+        nav li {
+            display: inline-block;
+        }
        
-        li a, hoover {
+        nav a:hover {
                 text-decoration: underline;
-                display: inline-block;
-                font-size: 1em,
+                
         }
         ul a {
                 padding: 0%;
@@ -75,25 +80,28 @@
             }
         
     } 
-        
-     .container_item {
-            display: list-item;
-     }
-        
-        .cta {
-            width: 5em;
-            height: 1em;
+    
+    .cta {
+            width: 100px;
+            height: 25px;
             background-color: #f2c166;
             color: black;
             font-size: medium;
             text-transform: capitalize;
             padding: 10px 80px;
             border-radius: 5px;
-            border-color: black;
-            border-style: bold;
+            }
+            .cta view .cta-view-cart {
+                background-color: #5897A6;
             }
     
-    
+    img {
+        width: 400px;
+        height:auto;
+        position: center;
+        margin: 10px;
+        padding:50px;
+     }
                     
                 
         /*inline element*/
@@ -112,64 +120,10 @@
         }
     }  
            
-/* Login */
-
-
-    .buttom_item {
-    display: column;
-    position: relative, center;
-    width: 500px;
-    height: 100px;
-    margin-left: 100px;
-    font-size: large;
-    }
-
-
-    label {
-        display: column;
-        position: relative, center;
-        width: 200px;
-        height: 50x;
-        margin: 50px;
-        font-size: large;
-        text-anchor: white;
-        border-radius: 8px;
-        border-color:black;
-        border-style: bold;
-        background-color: #5897A6;
-        }
-
-/*raincoat*/
-    body {
-    max-width: 600px;
-    position: relative, center;
-    margin: 20px;
-    padding: 10px,
-}
-
-    .cta-view-cart {
-    background-color:white;
-    color:#5897A6;
-    width: 5em;
-    height: 1em;
-    font-size: medium;
-    text-transform: capitalize;
-    padding: 10px 80px;
-    border-radius: 5px;
-    border-style: bold;
-    border: 5px solid;
-}
-
-/*Conform*/
- @media only screen and ( max-width: 600px) {
-    .container {
-        display: flex;
-    }
- }
-
  footer {
     position: relative, left;
     margin: 150px;
+    color: rgb(42, 112, 42);
     
     
 

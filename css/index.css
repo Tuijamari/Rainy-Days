@@ -1,0 +1,14 @@
+.start{
+    display: flex;
+    align-items: center;
+    background-image: url("/images//logo\ rainy\ days\ best\ new\ colour.png"), no-repeat, bottom,;
+    background-color: white;
+    margin: 20px;
+    min-height: 50vh;
+    background-size: cover;
+    position: relative, center;
+}
+
+h1 {
+    font-size: 3em;
+} 

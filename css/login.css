@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    position: center;
+    margin: 50px 20px 50px;
+    padding: 50px;
+}
+
+.container_item {
+    display: list-item;
+    width: 500px;
+    height: 20px;
+    margin: 50px;
+    padding: 50px;
+}
+
+    .buttom_item {
+    display: column;
+    position: absolute, center;
+    width: 500px;
+    height: 20px;
+    margin: 100px;
+    font-size: large;
+    }
+
+
+    label {
+        display: column;
+        position: relative, center;
+        width: 200px;
+        height: 50x;
+        margin: 50px;
+        font-size: large;
+        text-anchor: white;
+        border-radius: 8px;
+        border-color:black;
+        border-style: bold;
+        background-color: #5897A6;
+        }
