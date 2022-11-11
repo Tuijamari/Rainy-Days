@@ -10,7 +10,7 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/login.css" rel="stylesheet" />
   </head>
-  <bODY>
+  <body>
     <header>
       <a href="index.html" class="logo"></a>
       <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
@@ -29,32 +29,35 @@
         </ul>
       </nav>
     </header>
-    <main>
-      
-    
-      <section class="container">
-        <div class="buttom_item"></div>
-        <label> name</label>
-        <div class="buttom_item"></div>
-        <label> email</label>
-        <div class="buttom_item"></div>
-        <label> address</laabel>
-        <div class="buttom_item"></div>
-        <label a href="confirm.html"></label> submit</label>
-        <div class="item_buttom"></div>
-        <label  a href="productlist.html"> continue shopping</laabel>
-      </section>
-    
+    <main class="login">
+      <h1> Log in</h1>
+      <form method="POST">
+        <section>
+          <div class="form wrapper"></div>
+          <label for="name"> Fullname</label>
+          <input type="text" id="name" name="Fullname" />
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" />
+          <label for="email">Email</label>
+          <input type="text" id="email" name="Email" />
+        </section>
+        <section>
+          <label a href="confirm.html" >
+            <label for= "name"> Submit</label>
+          <div class="item_button"></div>
+          <label  a href="productlist.html"> 
+            <label for= "name">Continue shopping</laabel>
+          <div class="item_button"></div>
+        </section>
+      </form>
     </main>
     <footer>
-        Copyright &copy;
         <div>
           <h2>Contact info</h2>
           <p>email: xxx@rainydays.com</p>
-          <span>xxx@rainydays.com</span>
           <p>tlf: 9901100</p>
-          <span>9901100</span>
         </div>
+        Copyright &copy;
     </footer>
-  </bODY>
+  </body>
 </html>
