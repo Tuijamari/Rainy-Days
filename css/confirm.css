@@ -1,11 +1,11 @@
 @media only screen and ( min-width: 600px) and ( max-width: 1200px) {
     .container {
-        display: flex;
+        display: flex column;
         
         
     }
  }
-.container_.confirm {
+.confirm {
     position: center;
     margin:auto
 }

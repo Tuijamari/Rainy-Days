@@ -1,0 +1,26 @@
+@font-face {
+    font-family:"IBMPlexsans";
+    src: url("https://fonts.google.com/specimen/IBM+Plex+Sans?query=IBM+Plex+sans/text/IBMPlexSans-Woff.ttf"),format("woff"); 
+    src: url("https://fonts.google.com/specimen/IBM+Plex+Sans?query=IBM+Plex+sans/text/IBMPlexSans-Woff2.ttf")format("Woff2");
+ 
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+.form wrapper {
+    max-width: 1000px;
+
+    margin: 50px;
+    text-align: center;
+    background-color: white;
+    color: #5897A6;
+}
+
+label {
+    position: relative;
+    width: auto;
+    height: auto;
+}
