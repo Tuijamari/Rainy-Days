@@ -6,17 +6,12 @@
  
 }
 
-@media only screen and (max-width: 600px) {
-    .container {
-        flex-direction: column;
-        display: grid;
-    }
-}
+
  
 .container-item {
     
     grid-template-rows: auto space-between;
     justify-content: space-between;
     position: center;
-    margin-left: 5em;
+    margin: left 20px; 
 }

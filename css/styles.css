@@ -6,6 +6,7 @@
 }
 
 
+
         header {
             position: top;
             display: grid;
@@ -19,17 +20,28 @@
                 color:#fff;
             }
             
-
+        body {
+            display:grid;
+            grid-template-rows: auto 1fr auto;
+            margin: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
         
         nav ul {
-            position: top left;
             display: inline-block; 
             margin: 15px;
             padding: 20px 40px
         }
+        nav {
+            width: 60px;
+            height: 30px;
+            position: top left;
+            
+        }
          #checkbox-menu {
             display: inline-block;
          }
+
        
         button {
             
@@ -41,27 +53,25 @@
             position: right;
             margin-right:auto;
             border-radius: 1em;
+            text-align: center capitalize large;
             
         }
           
         .cta {
+           
             text-align: center capitalize large;
             margin: 10px
 
          }
-        
-       
-       
-         
+    
 
-
-        h1,h2,h3{ 
+        h1,h2,h3 { 
         
             font-family:"IBMPlexsans",Verdana, Geneva, Tahoma, sans-serif;
             color: rgb(42, 112, 42);
             text-align: center;
             font-size: 2em;
-            text-align: center;
+            
         }
     
     
@@ -93,7 +103,7 @@
                 
        
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (min-width: 600px) and (max-width:1200px) {
         .container {
             display:grid;
             flex-direction: column;
@@ -116,16 +126,4 @@
 
 
 
-    label {
-        display: column;
-        position: relative, center;
-        width: 200px;
-        height: 50x;
-        margin: 50px;
-        font-size: large;
-        text-anchor: white;
-        border-radius: 5px;
-        border-color:black;
-        border-style: bold;
-        background-color: #5897A6;
-        }
+    
