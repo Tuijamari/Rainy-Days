@@ -9,6 +9,7 @@
 @media only screen and (max-width: 600px) {
     .container {
         flex-direction: column;
+        display:grid;
     }
 
 }
@@ -20,23 +21,17 @@
     background-color: white;
     margin: 20px;
     min-height: 50vh;
-   
     position: relative, center;
 }
 
 h1 {
     font-size: 3em;
 } 
-.container {
+
+.container-item {
     display: grid;
-   
+    grid-template-rows: auto space-between;
+    justify-content: space-between;
+    position: center;
 }
-.buttonp {
-    background-color:#F2C166;
-    color:black;
-    width: 1000px;
-    height: 300px; 
-    padding: 0px;
-    position: right;
-    margin-right:auto;
-}
+

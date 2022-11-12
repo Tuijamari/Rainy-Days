@@ -19,10 +19,9 @@ body {
     margin: 20px;
     padding: 10px,
 }
-
-    .cta-view-cart {
-    background-color:white;
-    color:#5897A6;
+button 
+    .cta_cta-view-cart {
+    background: color #5897a5;
+    color: white;
     
-}
-    
+    }
