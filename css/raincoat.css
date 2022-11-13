@@ -19,8 +19,8 @@ body {
     --font-color:#fff;
     --background-color: #9acdd9;
 }
-button 
-    .cta_cta-view-cart {
+
+.cta_cta-view-cart {
     background: var(--background-color);
     color: #fff;
     
